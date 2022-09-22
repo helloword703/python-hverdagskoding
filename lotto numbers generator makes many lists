@@ -1,0 +1,20 @@
+
+x=0
+a=(int(input("how many times to you want the program to generate lists")))
+b=(int(input("how many number places do you wanna gennerate")))
+
+while x<a:
+        
+        def gen():
+            lottery_list = []
+            for i in range(b):
+                lottery_list.append(random.randrange(1,35)) #range numbers can be different 
+            print(lottery_list)
+            return lottery_list
+        def display(lottery_list):
+            for i in lottery_list:
+                print(i)
+        lottery_list = gen()
+        x=x+1
+
+print("now is the running done")
