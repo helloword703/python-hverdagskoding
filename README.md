@@ -1,0 +1,2 @@
+# python-hverdagskoding
+python læring
